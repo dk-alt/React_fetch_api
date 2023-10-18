@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.todo-box {
+  border: 1px solid;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: rgba(132, 221, 105, 0.151);
+}
+
+button {
+  cursor: pointer;
+  margin: 2px;
+}
+.todo-box:hover {
+  background: rgba(128, 128, 128, 0.26);
+  box-shadow: 5px 2px #888888;
+  font-weight: bold;
+}
+.todo-box-hover {
+  background: rgba(128, 128, 128, 0.26);
+  box-shadow: 5px 2px #888888;
+  font-weight: bold;
+}
+
+.App h3 {
+  color: blue;
+}
+
+.App h1 {
+  color: red;
+}
